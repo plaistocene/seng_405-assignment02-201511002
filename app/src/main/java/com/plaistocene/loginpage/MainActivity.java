@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
         email = findViewById(R.id.email);
         password = findViewById(R.id.password);
         loginButton = findViewById(R.id.loginButton);
+        forgotPassword = findViewById(R.id.forgotPassword);
+        createAccount = findViewById(R.id.createAccount);
 
         loginButton.setOnClickListener(view -> dataVerification());
 
